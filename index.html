@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grace Campaign Engine</title>
+<style>
+:root{--bg:#0d1117;--panel:#161b22;--line:#30363d;--txt:#e6edf3;--dim:#8b949e;--acc:#2f81f7;--ok:#3fb950;--warn:#d29922;--bad:#f85149}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--txt);font:14px/1.45 -apple-system,"Segoe UI",Roboto,Arial,sans-serif;padding:14px;max-width:860px;margin:0 auto}
+h1{font-size:15px;letter-spacing:.12em;font-weight:600}
+.top{display:flex;align-items:center;gap:10px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panel)}
+.dot{width:10px;height:10px;border-radius:50%;background:var(--ok);box-shadow:0 0 0 0 rgba(63,185,80,.7);animation:pulse 1.6s infinite;flex:none}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(63,185,80,.6)}70%{box-shadow:0 0 0 9px rgba(63,185,80,0)}100%{box-shadow:0 0 0 0 rgba(63,185,80,0)}}
+.phase{font-size:12px;color:var(--dim);margin-left:auto;text-align:right}
+.phase b{color:var(--txt);display:block;font-size:13px}
+.strip{height:3px;margin:10px 0 14px;border-radius:2px;background:linear-gradient(90deg,var(--acc),#a371f7,#3fb950,var(--acc));background-size:300% 100%;animation:flow 6s linear infinite}
+@keyframes flow{to{background-position:-300% 0}}
+.tiles{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
+.tile{border:1px solid var(--line);border-radius:10px;background:var(--panel);padding:10px 12px}
+.tile .n{font-size:22px;font-weight:700}
+.tile .l{font-size:10px;color:var(--dim);text-transform:uppercase;letter-spacing:.08em}
+.sec{margin-top:16px}
+.sec h2{font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:var(--dim);margin-bottom:8px}
+.row{display:flex;align-items:center;gap:10px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--panel);margin-bottom:6px}
+.row .p{flex:1;min-width:0}
+.row .p b{display:block;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.row .p span{font-size:11px;color:var(--dim)}
+.chip{font-size:10px;font-weight:700;padding:3px 8px;border-radius:20px;white-space:nowrap}
+.c-ok{background:rgba(63,185,80,.15);color:var(--ok)}
+.c-wait{background:rgba(210,153,34,.15);color:var(--warn)}
+.c-bad{background:rgba(248,81,73,.15);color:var(--bad)}
+.c-acc{background:rgba(47,129,247,.15);color:var(--acc)}
+.dl{font-size:11px;text-align:right;color:var(--dim);white-space:nowrap}
+.dl b{display:block;font-size:14px}
+.dl.hot b{color:var(--bad)} .dl.warm b{color:var(--warn)} .dl.cool b{color:var(--dim)}
+.feed{font-size:12px;color:var(--dim)}
+.feed .f{padding:6px 10px;border-left:2px solid var(--line);margin-bottom:4px}
+.feed .f b{color:var(--txt);font-weight:600}
+.needs li{margin:4px 0 4px 16px;font-size:12px;color:var(--dim)}
+.foot{margin-top:16px;font-size:10px;color:var(--dim);text-align:center}
+@media(max-width:560px){.tiles{grid-template-columns:repeat(3,1fr)}}
+</style>
+</head>
+<body>
+<div class="top"><span class="dot"></span><h1>GRACE CAMPAIGN ENGINE</h1>
+  <div class="phase"><b id="phase">loading</b><span id="runinfo">&nbsp;</span></div></div>
+<div class="strip"></div>
+<div class="tiles" id="tiles"></div>
+<div class="sec"><h2>Applications</h2><div id="apps"></div></div>
+<div class="sec"><h2>Engine log</h2><div class="feed" id="log"></div></div>
+<div class="sec"><h2>Waiting on Grace</h2><ul class="needs" id="needs"></ul></div>
+<div class="foot" id="foot">auto-refresh 30s</div>
+<script>
+const state={};
+async function load(){
+  try{
+    const r=await fetch('data.json',{cache:'no-store'});const d=await r.json();
+    state.d=d;render();
+  }catch(e){document.getElementById('phase').textContent='connecting...';}
+}
+function cls(s){if(/submit/i.test(s))return'c-ok';if(/missed|closed/i.test(s))return'c-bad';if(/prepar/i.test(s))return'c-acc';return'c-wait'}
+function dlcls(days){return days<=7?'hot':days<=30?'warm':'cool'}
+function render(){
+  const d=state.d,el=id=>document.getElementById(id);
+  el('phase').textContent=d.phase;
+  el('runinfo').textContent='last run '+d.last_run_utc+' UTC · next in ';
+  const t=[['Tracked',d.counts.tracked],['Prepared',d.counts.prepared],['Submitted',d.counts.submitted],['Missed',d.counts.missed],['Blocked',d.counts.blocked]];
+  el('tiles').innerHTML=t.map(x=>'<div class="tile"><div class="n">'+x[1]+'</div><div class="l">'+x[0]+'</div></div>').join('');
+  el('apps').innerHTML=d.apps.map(a=>{
+    const days=a.days_left;
+    return '<div class="row"><span class="chip '+cls(a.status)+'">'+a.status+'</span><div class="p"><b>'+a.program+'</b><span>'+a.tier+' · '+a.note+'</span></div><div class="dl '+dlcls(days)+'"><b>'+(days===null||days===undefined?'—':days+'d')+'</b>'+a.deadline+'</div></div>';
+  }).join('');
+  el('log').innerHTML=d.log.map(l=>'<div class="f"><b>'+l.t+'</b> · '+l.msg+'</div>').join('');
+  el('needs').innerHTML=d.needs.map(n=>'<li>'+n+'</li>').join('');
+}
+function tick(){
+  const el=document.getElementById('runinfo');
+  if(!state.d)return;
+  const now=new Date();
+  const next=new Date(now);next.setUTCMinutes(0,0,0);next.setUTCHours(next.getUTCHours()+1);
+  const m=Math.floor((next-now)/60000);
+  el.textContent='last run '+state.d.last_run_utc+' UTC · next in '+m+' min';
+}
+load();setInterval(load,30000);setInterval(tick,5000);tick();
+</script>
+</body>
+</html>
