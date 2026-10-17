@@ -1,0 +1,122 @@
+{
+ "phase": "Engine armed - hourly runs - building first packages",
+ "last_run_utc": "2026-10-17 08:45",
+ "counts": {
+  "tracked": 23,
+  "prepared": 1,
+  "submitted": 0,
+  "missed": 2,
+  "blocked": 2
+ },
+ "apps": [
+  {
+   "program": "Commonwealth Master's (UK)",
+   "tier": "T1",
+   "status": "Prepared",
+   "deadline": "Oct 20",
+   "days_left": 3,
+   "note": "Needs 2 referees + Grace's OK + Ghana Secretariat"
+  },
+  {
+   "program": "Erasmus Mundus MAPP",
+   "tier": "T1",
+   "status": "Queued",
+   "deadline": "Feb 4",
+   "days_left": 110,
+   "note": "Portal open - package being built now"
+  },
+  {
+   "program": "Erasmus Mundus GLOCAL",
+   "tier": "T1",
+   "status": "Queued",
+   "deadline": "Jan 15",
+   "days_left": 90,
+   "note": "Portal open - package being built now"
+  },
+  {
+   "program": "EPOG+ / GLODEP (Mundus)",
+   "tier": "T1",
+   "status": "Queued",
+   "deadline": "Jan 31",
+   "days_left": 106,
+   "note": "Opens Nov"
+  },
+  {
+   "program": "VLIR-UOS Belgium",
+   "tier": "T1",
+   "status": "Queued",
+   "deadline": "Feb 1",
+   "days_left": 107,
+   "note": "Opens Nov/Dec"
+  },
+  {
+   "program": "Fulbright Ghana (US)",
+   "tier": "T1",
+   "status": "Queued",
+   "deadline": "May 31",
+   "days_left": 226,
+   "note": "Opens Feb 2027"
+  },
+  {
+   "program": "Sweden SISGP + master's",
+   "tier": "T2",
+   "status": "Queued",
+   "deadline": "Jan 15",
+   "days_left": 90,
+   "note": "SEK 900 fee approved"
+  },
+  {
+   "program": "Maastricht UNU-MERIT",
+   "tier": "T2",
+   "status": "Queued",
+   "deadline": "Feb 1",
+   "days_left": 107,
+   "note": "~EUR 100 fee approved"
+  },
+  {
+   "program": "Chevening 2027/28",
+   "tier": "T1",
+   "status": "Missed",
+   "deadline": "Oct 6",
+   "days_left": -11,
+   "note": "Referees missing - requeue Aug 2027"
+  },
+  {
+   "program": "Ireland Fellows Africa",
+   "tier": "T1",
+   "status": "Missed",
+   "deadline": "Jul 26",
+   "days_left": -83,
+   "note": "Stage 1 missed - requeue Jun 2027"
+  },
+  {
+   "program": "Tier 3: Memorial MER (Canada) + Europe zero-fee unis",
+   "tier": "T3",
+   "status": "Scouting",
+   "deadline": "various",
+   "days_left": 90,
+   "note": "Research verified - adding to tracker"
+  }
+ ],
+ "log": [
+  {
+   "t": "08:45",
+   "msg": "Live monitor published. Engine runs hourly at :00 Accra time."
+  },
+  {
+   "t": "08:38",
+   "msg": "Dashboard sheet + engine spec written. Tier 3 research verified 20+ programs."
+  },
+  {
+   "t": "08:10",
+   "msg": "Tier 3 research landed: Memorial MER (IELTS waived for Ghana), Germany/Italy low-fee routes, Australia agent note."
+  }
+ ],
+ "needs": [
+  "Two referees (name, title, institution, email) - blocks most portals",
+  "Grace's OK / edits on the drafted essays",
+  "Ghana Card scan + passport quality check",
+  "Medium-of-instruction letter from UG (replaces IELTS)",
+  "Employer reference from StarLife Assurance"
+ ]
+}
