@@ -1,166 +1,170 @@
 {
-  "phase": "Publish-only inbox check complete; no new application messages or status changes.",
-  "last_run_utc": "2026-10-17 17:12",
-  "counts": {
-    "tracked": 16,
-    "prepared": 1,
-    "submitted": 0,
-    "missed": 2,
-    "blocked": 7
+ "phase": "Cycle complete \u2014 awaiting next scheduled hourly run",
+ "last_run_utc": "2026-10-17 18:02",
+ "counts": {
+  "tracked": 16,
+  "prepared": 7,
+  "submitted": 0,
+  "missed": 2,
+  "blocked": 7
+ },
+ "apps": [
+  {
+   "program": "Commonwealth Master's (UK)",
+   "tier": "T1",
+   "status": "Prepared, not submitted",
+   "deadline": "Oct 20, 16:00 BST",
+   "days_left": 3,
+   "note": "Needs two referees, Grace's approval, Ghana nomination and ID. CSC registration still incomplete."
   },
-  "apps": [
-    {
-      "program": "Master of Employment Relations (MER)",
-      "tier": "T3",
-      "status": "Queued",
-      "deadline": "2027-02-15",
-      "days_left": 121,
-      "note": "Verify waiver, eligibility and full cost."
-    },
-    {
-      "program": "Master in Occupational Safety and Health",
-      "tier": "T3",
-      "status": "Queued",
-      "deadline": "2027-05-31",
-      "days_left": 226,
-      "note": "Verify call, fee and fellowship; no package."
-    },
-    {
-      "program": "Edith Cowan Master of Occupational Health and Safety",
-      "tier": "T3",
-      "status": "Queued",
-      "deadline": "2026-11-30",
-      "days_left": 44,
-      "note": "Package exists; Australian agent and cost/MOI verification."
-    },
-    {
-      "program": "Wollongong Master of Business",
-      "tier": "T3",
-      "status": "Queued",
-      "deadline": "2026-12-01",
-      "days_left": 45,
-      "note": "Package exists; verify agent, scholarship and tuition."
-    },
-    {
-      "program": "Waikato Master of Business and Management",
-      "tier": "T3",
-      "status": "Queued",
-      "deadline": "2026-12-01",
-      "days_left": 45,
-      "note": "Package exists; verify award and English route."
-    },
-    {
-      "program": "WU Vienna SEEP",
-      "tier": "T3",
-      "status": "Queued",
-      "deadline": "2027-01-08",
-      "days_left": 83,
-      "note": "Two writing samples, degree certificate, MOI, credit check."
-    },
-    {
-      "program": "EPOG+ / GLODEP",
-      "tier": "T1",
-      "status": "Queued",
-      "deadline": "2027-01-31",
-      "days_left": 106,
-      "note": "Queued; verify portal window."
-    },
-    {
-      "program": "Erasmus Mundus MAPP",
-      "tier": "T1",
-      "status": "Queued",
-      "deadline": "2026-12-01",
-      "days_left": 45,
-      "note": "Grace must complete CEU password/GDPR consent; referees needed."
-    },
-    {
-      "program": "Erasmus Mundus GLOCAL",
-      "tier": "T1",
-      "status": "Queued",
-      "deadline": "2027-01-14",
-      "days_left": 89,
-      "note": "Partial package; form requirements unverified."
-    },
-    {
-      "program": "VLIR-UOS ICP Connect",
-      "tier": "T1",
-      "status": "Queued",
-      "deadline": "2027-02-01",
-      "days_left": 107,
-      "note": "Opens Nov/Dec; referees needed."
-    },
-    {
-      "program": "Sweden SISGP + masters",
-      "tier": "T2",
-      "status": "Queued",
-      "deadline": "2027-01-15",
-      "days_left": 90,
-      "note": "SEK 900 fee approved; program selection needed."
-    },
-    {
-      "program": "Maastricht High Potential / UNU-MERIT",
-      "tier": "T2",
-      "status": "Queued",
-      "deadline": "2027-02-01",
-      "days_left": 107,
-      "note": "Queued; exact application fee needs verification."
-    },
-    {
-      "program": "Fulbright Foreign Student Program",
-      "tier": "T1",
-      "status": "Queued",
-      "deadline": "2027-05-31",
-      "days_left": 226,
-      "note": "Expected Feb 2027; referees needed."
-    },
-    {
-      "program": "Chevening 2027/28",
-      "tier": "T1",
-      "status": "Missed",
-      "deadline": "2026-10-06",
-      "days_left": -11,
-      "note": "Missed; drafts reusable next cycle."
-    },
-    {
-      "program": "Commonwealth Masters 2027",
-      "tier": "T1",
-      "status": "Prepared",
-      "deadline": "2026-10-20",
-      "days_left": 3,
-      "note": "Needs two referees, essay OK, Ghana nomination, ID; CSC registration incomplete."
-    },
-    {
-      "program": "Ireland Fellows Africa 2027",
-      "tier": "T1",
-      "status": "Missed",
-      "deadline": "2027-06-29",
-      "days_left": 255,
-      "note": "Missed stage 1; next cycle expected June 2027."
-    }
-  ],
-  "log": [
-    {
-      "t": "17:12",
-      "msg": "Checked Grace inbox for Oct 17; 14 messages, no application/referee mail."
-    },
-    {
-      "t": "17:12",
-      "msg": "No status changes, portal actions or submissions."
-    },
-    {
-      "t": "17:05",
-      "msg": "Previous engine review: 16 tracked, 0 submitted; Commonwealth urgent."
-    }
-  ],
-  "needs": [
-    "Two referee contacts (name, title, institution, email)",
-    "Review/approval of statements",
-    "Ghana Card and passport scans",
-    "University of Ghana medium-of-instruction letter",
-    "StarLife employer reference",
-    "Commonwealth nomination route, course preferences, alternate email if needed",
-    "CEU password/GDPR consent and MAPP track confirmation",
-    "Registered education agent; verify costs and English route",
-    "Two original writing samples, degree certificate, transcript credit evidence"
-  ]
+  {
+   "program": "Erasmus Mundus MAPP",
+   "tier": "T1",
+   "status": "Draft - human step pending",
+   "deadline": "Dec 1",
+   "days_left": 45,
+   "note": "Package staged; CEU registration stopped at Grace's password/GDPR consent."
+  },
+  {
+   "program": "Erasmus Mundus GLOCAL",
+   "tier": "T1",
+   "status": "Working package staged",
+   "deadline": "Jan 14",
+   "days_left": 89,
+   "note": "Worksheet, generic draft and checklist staged; official form/portal requirements unverified."
+  },
+  {
+   "program": "EPOG+ / GLODEP",
+   "tier": "T1",
+   "status": "Queued",
+   "deadline": "Jan 31",
+   "days_left": 106,
+   "note": "Portal and current call need verification."
+  },
+  {
+   "program": "VLIR-UOS ICP Connect",
+   "tier": "T1",
+   "status": "Queued",
+   "deadline": "Feb 1",
+   "days_left": 107,
+   "note": "Opens Nov/Dec; referees needed."
+  },
+  {
+   "program": "Fulbright Ghana (US)",
+   "tier": "T1",
+   "status": "Queued",
+   "deadline": "May 31",
+   "days_left": 226,
+   "note": "Expected opening Feb 2027; verify 2028 intake call."
+  },
+  {
+   "program": "Sweden SISGP + master's",
+   "tier": "T2",
+   "status": "Queued",
+   "deadline": "Jan 15",
+   "days_left": 90,
+   "note": "SEK 900 university fee; select eligible master's programmes."
+  },
+  {
+   "program": "Maastricht UNU-MERIT",
+   "tier": "T2",
+   "status": "Queued",
+   "deadline": "Feb 1",
+   "days_left": 107,
+   "note": "Fee and current scholarship requirements need verification."
+  },
+  {
+   "program": "Master of Employment Relations (Memorial)",
+   "tier": "T3",
+   "status": "Queued",
+   "deadline": "Feb 15",
+   "days_left": 121,
+   "note": "Verify English waiver, eligibility and full costs before applying."
+  },
+  {
+   "program": "Turin / ITC-ILO Occupational Safety & Health",
+   "tier": "T3",
+   "status": "Queued",
+   "deadline": "May 31",
+   "days_left": 226,
+   "note": "Verify current call, application fee and fellowship."
+  },
+  {
+   "program": "ECU Master of Occupational Health & Safety",
+   "tier": "T3",
+   "status": "Draft",
+   "deadline": "Nov 30",
+   "days_left": 44,
+   "note": "Package staged; Australian agent and actual costs/scholarship need verification."
+  },
+  {
+   "program": "UOW Master of Business",
+   "tier": "T3",
+   "status": "Draft",
+   "deadline": "Dec 1",
+   "days_left": 45,
+   "note": "Package staged; agent route and scholarship eligibility need verification."
+  },
+  {
+   "program": "Waikato Master of Business & Management",
+   "tier": "T3",
+   "status": "Draft",
+   "deadline": "Dec 1",
+   "days_left": 45,
+   "note": "Package staged; verify award and English route."
+  },
+  {
+   "program": "WU Vienna SEEP",
+   "tier": "T3",
+   "status": "Draft - incomplete",
+   "deadline": "Jan 8",
+   "days_left": 83,
+   "note": "Needs two original writing samples, degree certificate, MOI and credit check."
+  },
+  {
+   "program": "Chevening 2027/28",
+   "tier": "T1",
+   "status": "Missed",
+   "deadline": "Oct 6",
+   "days_left": -11,
+   "note": "Closed; no application submitted."
+  },
+  {
+   "program": "Ireland Fellows Africa 2027/28",
+   "tier": "T1",
+   "status": "Missed",
+   "deadline": "Jul 26",
+   "days_left": -83,
+   "note": "Stage 1 closed; next cycle expected June 2027."
+  }
+ ],
+ "log": [
+  {
+   "t": "18:02",
+   "msg": "GLOCAL working worksheet, motivation draft and checklist staged. No account or submission."
+  },
+  {
+   "t": "18:02",
+   "msg": "Read-only Grace inbox check: no application or referee mail. No portal actions due documented gates."
+  },
+  {
+   "t": "17:09",
+   "msg": "Last recorded: 16 applications tracked, 7 package folders staged, 0 submitted."
+  },
+  {
+   "t": "16:40",
+   "msg": "Commonwealth CSC account remains uncreated after prior failed registration attempts; no repeat."
+  }
+ ],
+ "needs": [
+  "Two referee contacts: name, title, institution and email",
+  "Grace's approval of statements and programme-specific goals/preferences",
+  "Ghana Card/passport scans; Commonwealth Ghana nomination route and course preferences",
+  "University of Ghana medium-of-instruction letter, if accepted by target programme",
+  "Employer reference from StarLife where required",
+  "MAPP: Grace's CEU password/GDPR consent step and preferred mobility track",
+  "GLOCAL: confirm pathway/career goals; official form requirements still unverified",
+  "Australia: registered education agent and verified costs/scholarships",
+  "WU Vienna SEEP: original writing samples, degree certificate, MOI and transcript credit check"
+ ]
 }
