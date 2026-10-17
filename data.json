@@ -3,10 +3,10 @@
  "last_run_utc": "2026-10-17 21:05",
  "counts": {
   "tracked": 32,
-  "prepared": 7,
+  "prepared": 0,
   "submitted": 0,
   "missed": 2,
-  "blocked": 8
+  "blocked": 3
  },
  "apps": [
   {
