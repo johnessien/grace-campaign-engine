@@ -1,12 +1,12 @@
 {
- "phase": "Hourly audit complete - 16 Tier 3 programs queued; claims await official recheck",
- "last_run_utc": "2026-10-17 20:01",
+ "phase": "Package building complete; waiting on verified documents and Grace inputs",
+ "last_run_utc": "2026-10-17 21:05",
  "counts": {
   "tracked": 32,
-  "prepared": 1,
+  "prepared": 7,
   "submitted": 0,
   "missed": 2,
-  "blocked": 7
+  "blocked": 8
  },
  "apps": [
   {
@@ -76,10 +76,10 @@
   {
    "program": "WU Vienna SEEP",
    "tier": "T3",
-   "status": "Blocked",
+   "status": "Prepared",
    "deadline": "Jan 8",
    "days_left": 83,
-   "note": "Two writing samples, degree certificate, MOI, transcript-credit check"
+   "note": "Working package ready; needs authentic writing samples, degree certificate and MOI"
   },
   {
    "program": "ECU Master of Occupational Health & Safety",
@@ -268,6 +268,10 @@
  ],
  "log": [
   {
+   "t": "21:05",
+   "msg": "WU Vienna SEEP worksheet, statement scaffold, checklist and conditional referee note staged. No portal action."
+  },
+  {
    "t": "20:01",
    "msg": "Added 16 research-claimed verified Tier 3 programs to lead/application trackers; all require current official recheck."
   },
@@ -297,13 +301,11 @@
   }
  ],
  "needs": [
-  "Two referee contacts (name, title, institution, email; phone if available)",
-  "Grace's approval of scholarship statements and three UK course preferences",
-  "Ghana Card/passport scans; Ghana Scholarships Secretariat route for Commonwealth",
-  "University of Ghana medium-of-instruction letter, where accepted instead of expired IELTS",
-  "StarLife employer reference, where required",
-  "CEU MAPP password/GDPR consent from Grace; MAPP track/career aim",
-  "Australian registered education agent and verification of fees/scholarships/English route",
-  "WU Vienna writing samples, degree certificate and transcript-credit check"
+  "Two referees (name, title, institution, email) - blocks many portals",
+  "Grace\u2019s approval of statements and her own career/motivation goals",
+  "Ghana Card/passport and degree certificate scans",
+  "University of Ghana MOI letter",
+  "WU SEEP: two authentic 2,000-word writing samples; transcript credit evaluation",
+  "Commonwealth nomination route + alternate email if CSC requires it"
  ]
 }
