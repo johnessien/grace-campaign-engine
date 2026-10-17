@@ -1,45 +1,45 @@
 {
- "phase": "Engine armed - hourly runs - building first packages",
- "last_run_utc": "2026-10-17 08:45",
+ "phase": "CSC registration staged; waiting on disabled verify button; building applications",
+ "last_run_utc": "2026-10-17 10:15",
  "counts": {
-  "tracked": 23,
-  "prepared": 1,
+  "tracked": 14,
+  "prepared": 5,
   "submitted": 0,
   "missed": 2,
-  "blocked": 2
+  "blocked": 5
  },
  "apps": [
   {
    "program": "Commonwealth Master's (UK)",
    "tier": "T1",
-   "status": "Prepared",
+   "status": "In progress",
    "deadline": "Oct 20",
    "days_left": 3,
-   "note": "Needs 2 referees + Grace's OK + Ghana Secretariat"
+   "note": "No account created; Verify & Submit disabled. Needs referees, ID, nomination."
   },
   {
    "program": "Erasmus Mundus MAPP",
    "tier": "T1",
-   "status": "Queued",
-   "deadline": "Feb 4",
+   "status": "In progress",
+   "deadline": "Feb 4*",
    "days_left": 110,
-   "note": "Portal open - package being built now"
+   "note": "Partial package; not registered or submitted. Verify 2027 cycle deadline."
   },
   {
    "program": "Erasmus Mundus GLOCAL",
    "tier": "T1",
-   "status": "Queued",
-   "deadline": "Jan 15",
-   "days_left": 90,
-   "note": "Portal open - package being built now"
+   "status": "Draft",
+   "deadline": "Jan 14",
+   "days_left": 89,
+   "note": "Official page reports scholarship deadline 13:00 UK; package pending."
   },
   {
-   "program": "EPOG+ / GLODEP (Mundus)",
+   "program": "Erasmus Mundus EPOG+ / GLODEP",
    "tier": "T1",
    "status": "Queued",
    "deadline": "Jan 31",
    "days_left": 106,
-   "note": "Opens Nov"
+   "note": "Portal details and official deadline need verification."
   },
   {
    "program": "VLIR-UOS Belgium",
@@ -47,7 +47,7 @@
    "status": "Queued",
    "deadline": "Feb 1",
    "days_left": 107,
-   "note": "Opens Nov/Dec"
+   "note": "Needs referees; portal not open per existing tracker."
   },
   {
    "program": "Fulbright Ghana (US)",
@@ -55,7 +55,7 @@
    "status": "Queued",
    "deadline": "May 31",
    "days_left": 226,
-   "note": "Opens Feb 2027"
+   "note": "Next window expected Feb 2027."
   },
   {
    "program": "Sweden SISGP + master's",
@@ -63,7 +63,7 @@
    "status": "Queued",
    "deadline": "Jan 15",
    "days_left": 90,
-   "note": "SEK 900 fee approved"
+   "note": "SEK 900 application fee, no payment made."
   },
   {
    "program": "Maastricht UNU-MERIT",
@@ -71,7 +71,39 @@
    "status": "Queued",
    "deadline": "Feb 1",
    "days_left": 107,
-   "note": "~EUR 100 fee approved"
+   "note": "~EUR 100 fee, no payment made."
+  },
+  {
+   "program": "ECU Master Occupational Health & Safety",
+   "tier": "T3",
+   "status": "Draft",
+   "deadline": "Nov 30",
+   "days_left": 44,
+   "note": "Application package exists; registered Australian agent required."
+  },
+  {
+   "program": "UOW Master of Business",
+   "tier": "T3",
+   "status": "Draft",
+   "deadline": "Dec 1",
+   "days_left": 45,
+   "note": "Package exists; agent / scholarship route to verify."
+  },
+  {
+   "program": "Waikato MBM",
+   "tier": "T3",
+   "status": "Draft",
+   "deadline": "Dec 1",
+   "days_left": 45,
+   "note": "Package exists; award and English route to verify."
+  },
+  {
+   "program": "WU Vienna SEEP",
+   "tier": "T3",
+   "status": "Draft",
+   "deadline": "Nov 30*",
+   "days_left": 44,
+   "note": "Package needs writing samples and exact deadline verification."
   },
   {
    "program": "Chevening 2027/28",
@@ -79,26 +111,34 @@
    "status": "Missed",
    "deadline": "Oct 6",
    "days_left": -11,
-   "note": "Referees missing - requeue Aug 2027"
+   "note": "Cycle closed; two referees were not available."
   },
   {
-   "program": "Ireland Fellows Africa",
+   "program": "Ireland Fellows 2027/28",
    "tier": "T1",
    "status": "Missed",
    "deadline": "Jul 26",
    "days_left": -83,
-   "note": "Stage 1 missed - requeue Jun 2027"
-  },
-  {
-   "program": "Tier 3: Memorial MER (Canada) + Europe zero-fee unis",
-   "tier": "T3",
-   "status": "Scouting",
-   "deadline": "various",
-   "days_left": 90,
-   "note": "Research verified - adding to tracker"
+   "note": "Stage 1 closed before shortlist stage."
   }
  ],
  "log": [
+  {
+   "t": "10:15",
+   "msg": "CSC registration fields entered; Verify & Submit disabled. No account created."
+  },
+  {
+   "t": "10:12",
+   "msg": "Checked Grace Gmail via IMAP: no recent application or portal verification mail."
+  },
+  {
+   "t": "10:08",
+   "msg": "Added 3 Tier-3 drafts to tracker: ECU OHS, UOW Business, Waikato MBM."
+  },
+  {
+   "t": "10:05",
+   "msg": "GLOCAL official search: scholarship deadline 14 Jan 2027, 13:00 UK; form details still need verification."
+  },
   {
    "t": "08:45",
    "msg": "Live monitor published. Engine runs hourly at :00 Accra time."
@@ -113,10 +153,11 @@
   }
  ],
  "needs": [
-  "Two referees (name, title, institution, email) - blocks most portals",
-  "Grace's OK / edits on the drafted essays",
-  "Ghana Card scan + passport quality check",
-  "Medium-of-instruction letter from UG (replaces IELTS)",
-  "Employer reference from StarLife Assurance"
+  "Two referees (name, title, institution, email, phone)",
+  "Grace approval of essays",
+  "Ghana Card/passport details",
+  "University of Ghana MOI letter",
+  "StarLife employer reference",
+  "Alternate CSC reset email may be required"
  ]
 }
