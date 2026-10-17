@@ -1,12 +1,12 @@
 {
- "phase": "CSC registration checked; blocked at VERIFY & SUBMIT; preparing remaining applications",
+ "phase": "Inbox checked; no new application messages; tracker and dashboard refreshed",
  "last_run_utc": "2026-10-17 15:10",
  "counts": {
   "tracked": 16,
-  "prepared": 1,
+  "prepared": 7,
   "submitted": 0,
   "missed": 2,
-  "blocked": 6
+  "blocked": 7
  },
  "apps": [
   {
@@ -139,6 +139,10 @@
   }
  ],
  "log": [
+  {
+   "t": "15:10",
+   "msg": "Checked Grace inbox for last 24h: 35 messages, no application/portal/referee matches; no status changes."
+  },
   {
    "t": "15:10",
    "msg": "CSC Central registration retried once. Form did not advance; no account created or application submitted."
