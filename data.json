@@ -1,6 +1,6 @@
 {
-  "phase": "Cycle complete: inbox checked; applications reconciled; no portal action safely available",
-  "last_run_utc": "2026-10-17 22:04",
+  "phase": "Cycle checked Grace inbox; no new messages; applications remain at existing human gates",
+  "last_run_utc": "2026-10-17 23:03",
   "counts": {
     "tracked": 32,
     "prepared": 1,
@@ -268,20 +268,12 @@
   ],
   "log": [
     {
-      "t": "22:04",
-      "msg": "Cycle: verified CSC deadline/requirements; 0 Grace inbox messages; CSC registration remains blocked; MAPP consent gate; GLOCAL requirements unverified."
+      "t": "23:03",
+      "msg": "Read-only Grace inbox check: 25 messages since 16 Oct; 2 newsletter matches, no application/referee updates."
     },
     {
-      "t": "21:09",
-      "msg": "Prior status check; package inventory updated."
-    },
-    {
-      "t": "21:09",
-      "msg": "32 applications, 45 leads. No email updates; connected Gmail is John\u2019s account, not Grace\u2019s."
-    },
-    {
-      "t": "21:09",
-      "msg": "No application rows changed; 0 confirmed submissions; Commonwealth remains urgent Oct 20."
+      "t": "23:03",
+      "msg": "No entity or portal changes; 0 confirmed submissions; Commonwealth remains urgent Oct 20."
     },
     {
       "t": "20:01",
@@ -289,10 +281,17 @@
     }
   ],
   "needs": [
-    "Commonwealth: two authentic referee details and signed PDF references by 20 Oct 16:00 BST",
-    "Commonwealth: citizenship ID, Grace essay/course approval, Ghana nominator route",
-    "MAPP: Grace must set portal password and accept GDPR consent; two referees + track/career confirmation",
-    "WU SEEP: two authentic writing samples, BA certificate, MOI letter, credit equivalence, motivation",
-    "GLOCAL: verify official portal, prompts, references, fee and English route before registration"
+    "Two referee contacts (name, title, institution, email; phone if available), Grace",
+    "Grace review and approval of scholarship statements",
+    "Ghana Card and passport scans; legibility check",
+    "University of Ghana medium-of-instruction letter",
+    "StarLife employer reference where required",
+    "Commonwealth: Ghana Scholarships Secretariat nomination route and course preferences by Oct 20",
+    "MAPP: Grace must complete CEU password and GDPR-consent step; confirm track/career aim",
+    "GLOCAL official prompts and portal need verification",
+    "Australia applications require registered education agent and cost/award verification",
+    "WU Vienna: two original writing samples, degree certificate, transcript/ECTS evaluation, MOI and applicant motivation",
+    "Memorial MER: confirm full cost and Ghana English-test waiver",
+    "Grace inbox access: read-only IMAP check completed this run; no new application messages."
   ]
 }
