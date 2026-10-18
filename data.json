@@ -1,6 +1,6 @@
 {
-  "phase": "Inbox checked; no new application messages; tracker unchanged",
-  "last_run_utc": "2026-10-18 01:11",
+  "phase": "Cycle checked applications and Grace inbox; no material changes; 0 submitted",
+  "last_run_utc": "2026-10-18 02:04",
   "counts": {
     "tracked": 32,
     "prepared": 1,
@@ -14,7 +14,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2026-12-15",
-      "days_left": 58,
+      "days_left": 59,
       "note": "Recheck official eligibility, agent route, tuition, award and MOI."
     },
     {
@@ -22,7 +22,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-07-01",
-      "days_left": 256,
+      "days_left": 257,
       "note": "Confirm entry, English route, fee waiver and net cost."
     },
     {
@@ -30,7 +30,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-03-31",
-      "days_left": 164,
+      "days_left": 165,
       "note": "Confirm fee, award, English route and cost."
     },
     {
@@ -38,7 +38,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-05-01",
-      "days_left": 195,
+      "days_left": 196,
       "note": "Confirm eligibility, fee waiver, award and cost."
     },
     {
@@ -46,7 +46,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2026-12-01",
-      "days_left": 44,
+      "days_left": 45,
       "note": "Verify intake, English, scholarship and net tuition."
     },
     {
@@ -54,7 +54,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2026-12-01",
-      "days_left": 44,
+      "days_left": 45,
       "note": "Verify prerequisites, agent route, fee, award and cost."
     },
     {
@@ -62,7 +62,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-07-15",
-      "days_left": 270,
+      "days_left": 271,
       "note": "Check grade conversion, English and uni-assist fee."
     },
     {
@@ -70,7 +70,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-07-15",
-      "days_left": 270,
+      "days_left": 271,
       "note": "Confirm subject credits, MOI and fee."
     },
     {
@@ -78,7 +78,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-04-30",
-      "days_left": 194,
+      "days_left": 195,
       "note": "Confirm course credits, fee, Ghana rate and ER.GO award."
     },
     {
@@ -86,7 +86,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-02-28",
-      "days_left": 133,
+      "days_left": 134,
       "note": "Confirm 2027 call, English waiver and scholarship criteria."
     },
     {
@@ -94,7 +94,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-04-30",
-      "days_left": 194,
+      "days_left": 195,
       "note": "Confirm deadlines, English proof and Ghana tuition rate."
     },
     {
@@ -102,7 +102,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-07-15",
-      "days_left": 270,
+      "days_left": 271,
       "note": "Check coursework and uni-assist fee."
     },
     {
@@ -110,7 +110,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-07-15",
-      "days_left": 270,
+      "days_left": 271,
       "note": "Confirm non-engineering eligibility; don't apply if engineering degree required."
     },
     {
@@ -118,7 +118,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-05-31",
-      "days_left": 225,
+      "days_left": 226,
       "note": "Confirm eligibility, English route, fee and tuition."
     },
     {
@@ -126,7 +126,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-07-15",
-      "days_left": 270,
+      "days_left": 271,
       "note": "Check quantitative prerequisites in transcript."
     },
     {
@@ -134,7 +134,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-04-30",
-      "days_left": 194,
+      "days_left": 195,
       "note": "Confirm title, entry, English route and fee."
     },
     {
@@ -142,7 +142,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-05-31",
-      "days_left": 225,
+      "days_left": 226,
       "note": "Verify current call and fellowship; package if open."
     },
     {
@@ -150,7 +150,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-02-15",
-      "days_left": 120,
+      "days_left": 121,
       "note": "Confirm eligibility, full cost and Ghana English waiver."
     },
     {
@@ -158,7 +158,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2026-12-01",
-      "days_left": 44,
+      "days_left": 45,
       "note": "Confirm agent route, scholarship and tuition before portal."
     },
     {
@@ -166,7 +166,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2026-11-30",
-      "days_left": 43,
+      "days_left": 44,
       "note": "Use registered agent; verify cost, scholarship and MOI."
     },
     {
@@ -174,7 +174,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2026-12-01",
-      "days_left": 44,
+      "days_left": 45,
       "note": "Verify scholarship, MOI and current portal requirements."
     },
     {
@@ -182,7 +182,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-01-08",
-      "days_left": 82,
+      "days_left": 83,
       "note": "Needs two writing samples, degree certificate, ECTS evaluation, MOI and applicant goals."
     },
     {
@@ -190,7 +190,7 @@
       "tier": "T1",
       "status": "Queued",
       "deadline": "2027-01-31",
-      "days_left": 105,
+      "days_left": 106,
       "note": "Queued; confirm current 2027 call and exact deadlines."
     },
     {
@@ -198,7 +198,7 @@
       "tier": "T1",
       "status": "Queued",
       "deadline": "2026-12-01",
-      "days_left": 44,
+      "days_left": 45,
       "note": "Needs Grace's portal password/GDPR consent, track confirmation and referees."
     },
     {
@@ -206,7 +206,7 @@
       "tier": "T1",
       "status": "Queued",
       "deadline": "2027-01-14",
-      "days_left": 88,
+      "days_left": 89,
       "note": "Verify official prompts/requirements before registration."
     },
     {
@@ -214,7 +214,7 @@
       "tier": "T1",
       "status": "Queued",
       "deadline": "2027-02-01",
-      "days_left": 106,
+      "days_left": 107,
       "note": "Queued; monitor call and confirm course eligibility."
     },
     {
@@ -222,7 +222,7 @@
       "tier": "T2",
       "status": "Queued",
       "deadline": "2027-01-15",
-      "days_left": 89,
+      "days_left": 90,
       "note": "University application fee SEK 900; prepare when portal open."
     },
     {
@@ -230,7 +230,7 @@
       "tier": "T2",
       "status": "Queued",
       "deadline": "2027-02-01",
-      "days_left": 106,
+      "days_left": 107,
       "note": "Prepare application; verify current entry and deadline."
     },
     {
@@ -238,7 +238,7 @@
       "tier": "T1",
       "status": "Queued",
       "deadline": "2027-05-31",
-      "days_left": 225,
+      "days_left": 226,
       "note": "Opens Feb 2027; monitor Ghana call."
     },
     {
@@ -246,7 +246,7 @@
       "tier": "T1",
       "status": "Missed",
       "deadline": "2026-10-06",
-      "days_left": -12,
+      "days_left": -11,
       "note": "Closed; missed deadline."
     },
     {
@@ -254,7 +254,7 @@
       "tier": "T1",
       "status": "Prepared",
       "deadline": "2026-10-20",
-      "days_left": 2,
+      "days_left": 3,
       "note": "Needs two referees, Grace approval, Ghana nomination and ID details."
     },
     {
@@ -262,33 +262,17 @@
       "tier": "T1",
       "status": "Missed",
       "deadline": "2027-06-29",
-      "days_left": 254,
+      "days_left": 255,
       "note": "Stage 1 missed; expected 2028/29 cycle, verify next call."
     }
   ],
   "log": [
     {
-      "t": "01:11",
-      "msg": "Read-only Grace inbox: 15 messages in last 24h; one unrelated newsletter keyword hit, no application/referee updates."
+      "t": "02:04",
+      "msg": "Grace inbox IMAP check: 17 messages; one unrelated newsletter keyword hit, no application/referee updates."
     },
     {
-      "t": "01:11",
-      "msg": "Reviewed 32 tracker rows; no new submission proof or status change; 0 verified submissions."
-    },
-    {
-      "t": "01:05",
-      "msg": "Read-only Grace inbox: 27 messages since Oct 16; 2 newsletter-only matches, no application/referee updates."
-    },
-    {
-      "t": "01:05",
-      "msg": "Read 32 application tracker records; no status change, no portal action or submission."
-    },
-    {
-      "t": "23:03",
-      "msg": "Read-only Grace inbox check: 25 messages since 16 Oct; 2 newsletter matches, no application/referee updates."
-    },
-    {
-      "t": "23:03",
+      "t": "02:04",
       "msg": "No entity or portal changes; 0 confirmed submissions; Commonwealth remains urgent Oct 20."
     },
     {
