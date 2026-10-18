@@ -1,6 +1,6 @@
 {
-  "phase": "Hourly cycle complete; no new inbox messages or application changes; 0 submitted",
-  "last_run_utc": "2026-10-18 23:05",
+  "phase": "Hourly audit complete: 28 Grace inbox messages checked; no relevant email; 0 submissions",
+  "last_run_utc": "2026-10-18 23:08",
   "counts": {
     "tracked": 32,
     "prepared": 1,
@@ -268,6 +268,10 @@
   ],
   "log": [
     {
+      "t": "23:08",
+      "msg": "Grace inbox IMAP audit: 28 messages since Oct 17; 2 keyword matches were unrelated Abundance Portal newsletters. No status change or submission."
+    },
+    {
       "t": "23:05",
       "msg": "Grace inbox read-only IMAP audit: 27 messages dated since 17 Oct; one unrelated Abundance Portal newsletter; no relevant university, scholarship, application, verification, or referee mail."
     },
@@ -281,17 +285,12 @@
     }
   ],
   "needs": [
-    "Two referee contacts (name, title, institution, email; phone if available), Grace",
-    "Grace review and approval of scholarship statements",
-    "Ghana Card and passport scans; legibility check",
-    "University of Ghana medium-of-instruction letter",
-    "StarLife employer reference where required",
-    "Commonwealth: Ghana Scholarships Secretariat nomination route and course preferences by Oct 20",
-    "MAPP: Grace must complete CEU password and GDPR-consent step; confirm track/career aim",
-    "GLOCAL official prompts and portal need verification",
-    "Australia applications require registered education agent and cost/award verification",
-    "WU Vienna: two original writing samples, degree certificate, transcript/ECTS evaluation, MOI and applicant motivation",
-    "Memorial MER: confirm full cost and Ghana English-test waiver",
-    "Grace inbox access: read-only IMAP check completed this run; no new application messages."
+    "Two real referees and signed references, from Grace",
+    "Grace approval of statements and Commonwealth course choices",
+    "Ghana Card/passport scans, UG medium-of-instruction letter, Ghana Secretariat nomination confirmation",
+    "MAPP: Grace CEU password/GDPR consent, track/career aim, referees",
+    "WU Vienna: two original writing samples, degree certificate, transcript/ECTS evaluation",
+    "Australian agent to verify fees, awards, net cost and MOI route",
+    "Verify GLOCAL official requirements and portal before applying"
   ]
 }
