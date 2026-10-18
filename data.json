@@ -1,6 +1,6 @@
 {
-  "phase": "Hourly cycle complete; inbox checked, no application changes; 0 submitted",
-  "last_run_utc": "2026-10-18 21:05",
+  "phase": "Hourly cycle complete; no new inbox messages or application changes; 0 submitted",
+  "last_run_utc": "2026-10-18 21:11",
   "counts": {
     "tracked": 32,
     "prepared": 1,
@@ -268,20 +268,16 @@
   ],
   "log": [
     {
-      "t": "21:05",
-      "msg": "Read-only Grace inbox check: 26 messages since Oct 17, 2 unrelated newsletter hits; no new application changes."
+      "t": "21:11",
+      "msg": "Grace inbox read-only IMAP audit: 300 recent messages checked for the exact preceding 24h; one unrelated Abundance Portal newsletter; no relevant university, scholarship, application, verification, or referee mail."
     },
     {
-      "t": "20:14",
-      "msg": "Grace inbox read-only IMAP audit: 14 messages in the last 24h; one unrelated Abundance Portal newsletter; no relevant university, scholarship, application, verification, or referee mail."
-    },
-    {
-      "t": "20:14",
+      "t": "21:11",
       "msg": "No entity or portal changes; 0 confirmed submissions; Commonwealth remains urgent Oct 20."
     },
     {
       "t": "20:01",
-      "msg": "16 research-claimed Tier 3 leads/apps added; current requirements still need official recheck."
+      "msg": "No application/status changes this run; current requirements still need official recheck."
     }
   ],
   "needs": [
