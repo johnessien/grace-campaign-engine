@@ -1,12 +1,12 @@
 {
-  "phase": "Hourly cycle checked inbox; no new mail; tracker/dashboard sync limited by unavailable files",
-  "last_run_utc": "2026-10-18 02:12",
+  "phase": "Cycle checked applications and Grace inbox; no material changes; 0 submitted",
+  "last_run_utc": "2026-10-18 02:04",
   "counts": {
     "tracked": 32,
     "prepared": 1,
     "submitted": 0,
     "missed": 2,
-    "blocked": 2
+    "blocked": 4
   },
   "apps": [
     {
@@ -180,10 +180,10 @@
     {
       "program": "MSc Socio-Ecological Economics and Policy (SEEP)",
       "tier": "T3",
-      "status": "Draft",
-      "deadline": "Jan 8",
-      "days_left": 82,
-      "note": "Incomplete: authentic writing samples, degree cert, credit eval, MOI, SOP."
+      "status": "Queued",
+      "deadline": "2027-01-08",
+      "days_left": 83,
+      "note": "Needs two writing samples, degree certificate, ECTS evaluation, MOI and applicant goals."
     },
     {
       "program": "Erasmus Mundus EPOG+ / GLODEP",
@@ -245,17 +245,17 @@
       "program": "Chevening Scholarship 2027/28",
       "tier": "T1",
       "status": "Missed",
-      "deadline": "Oct 6",
-      "days_left": -12,
-      "note": "Cycle missed; requeue next cycle."
+      "deadline": "2026-10-06",
+      "days_left": -11,
+      "note": "Closed; missed deadline."
     },
     {
       "program": "Commonwealth Master's Scholarship 2027",
       "tier": "T1",
       "status": "Prepared",
-      "deadline": "Oct 20",
-      "days_left": 2,
-      "note": "No submission proof. Needs referees, Grace approval, Ghana nomination/ID."
+      "deadline": "2026-10-20",
+      "days_left": 3,
+      "note": "Needs two referees, Grace approval, Ghana nomination and ID details."
     },
     {
       "program": "Ireland Fellows Programme Africa 2027",
@@ -263,20 +263,16 @@
       "status": "Missed",
       "deadline": "2027-06-29",
       "days_left": 255,
-      "note": "Stage missed; recheck next cycle."
+      "note": "Stage 1 missed; expected 2028/29 cycle, verify next call."
     }
   ],
   "log": [
     {
-      "t": "02:12",
-      "msg": "Inbox check: no matching messages in the available Gmail connection (Grace inbox not confirmed). Tracker shows 32 applications; no submission evidence."
+      "t": "03:01",
+      "msg": "Grace inbox IMAP check: 17 messages; one unrelated Abundance Portal newsletter keyword hit, no application/referee updates."
     },
     {
-      "t": "02:04",
-      "msg": "Grace inbox IMAP check: 17 messages; one unrelated newsletter keyword hit, no application/referee updates."
-    },
-    {
-      "t": "02:04",
+      "t": "03:01",
       "msg": "No entity or portal changes; 0 confirmed submissions; Commonwealth remains urgent Oct 20."
     },
     {
@@ -285,9 +281,17 @@
     }
   ],
   "needs": [
-    "Two referees with name, title, institution and email; Commonwealth deadline Oct 20, 16:00 BST",
-    "Grace approval of Commonwealth statements; Ghana Scholarships Secretariat nomination and ID documents",
-    "WU Vienna: authentic writing samples, official BA certificate, transcript credit evaluation, MOI letter and SOP",
-    "Verify Tier 3 fees, deadlines, eligibility, English routes and tuition against official pages before applying"
+    "Two referee contacts (name, title, institution, email; phone if available), Grace",
+    "Grace review and approval of scholarship statements",
+    "Ghana Card and passport scans; legibility check",
+    "University of Ghana medium-of-instruction letter",
+    "StarLife employer reference where required",
+    "Commonwealth: Ghana Scholarships Secretariat nomination route and course preferences by Oct 20",
+    "MAPP: Grace must complete CEU password and GDPR-consent step; confirm track/career aim",
+    "GLOCAL official prompts and portal need verification",
+    "Australia applications require registered education agent and cost/award verification",
+    "WU Vienna: two original writing samples, degree certificate, transcript/ECTS evaluation, MOI and applicant motivation",
+    "Memorial MER: confirm full cost and Ghana English-test waiver",
+    "Grace inbox access: read-only IMAP check completed this run; no new application messages."
   ]
 }
