@@ -1,6 +1,6 @@
 {
-  "phase": "Hourly cycle complete; no new inbox messages or application changes; 0 submitted",
-  "last_run_utc": "2026-10-18 09:12",
+  "phase": "Hourly cycle complete; no new application changes; 0 submitted",
+  "last_run_utc": "2026-10-18 10:00",
   "counts": {
     "tracked": 32,
     "prepared": 1,
@@ -267,6 +267,10 @@
     }
   ],
   "log": [
+    {
+      "t": "10:00",
+      "msg": "Read-only inbox check: 18 messages since 17 Oct; only keyword match unrelated newsletter. No tracker or portal changes."
+    },
     {
       "t": "09:12",
       "msg": "Grace inbox read-only IMAP check: 17 messages in 24h; all unrelated newsletters/promotions, no scholarship/application/referee updates."
