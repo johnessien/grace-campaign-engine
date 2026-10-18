@@ -1,6 +1,6 @@
 {
-  "phase": "Cycle complete — inbox checked; no new application events; no submissions",
-  "last_run_utc": "2026-10-18 09:05",
+  "phase": "Hourly cycle complete; no new inbox messages or application changes; 0 submitted",
+  "last_run_utc": "2026-10-18 09:12",
   "counts": {
     "tracked": 32,
     "prepared": 1,
@@ -196,18 +196,18 @@
     {
       "program": "Erasmus Mundus MAPP (Public Policy)",
       "tier": "T1",
-      "status": "Blocked",
+      "status": "Queued",
       "deadline": "2026-12-01",
       "days_left": 44,
-      "note": "Registration stops at Grace’s password/GDPR consent; also needs referees and track confirmation."
+      "note": "Needs Grace's portal password/GDPR consent, track confirmation and referees."
     },
     {
       "program": "Erasmus Mundus GLOCAL (Global Markets, Local Creativities)",
       "tier": "T1",
-      "status": "Blocked",
+      "status": "Queued",
       "deadline": "2027-01-14",
       "days_left": 88,
-      "note": "Draft only; official portal and requirements still unverified."
+      "note": "Verify official prompts/requirements before registration."
     },
     {
       "program": "VLIR-UOS ICP Connect (Belgium)",
@@ -255,7 +255,7 @@
       "status": "Prepared",
       "deadline": "2026-10-20",
       "days_left": 2,
-      "note": "Not submitted; no further registration retry. Needs referees, Grace approval, ID and Ghana nomination."
+      "note": "Needs two referees, Grace approval, Ghana nomination and ID details."
     },
     {
       "program": "Ireland Fellows Programme Africa 2027",
@@ -268,19 +268,11 @@
   ],
   "log": [
     {
-      "t": "09:05",
-      "msg": "Grace inbox checked via private IMAP: 18 messages since 17 Oct; only match was unrelated newsletter."
-    },
-    {
-      "t": "09:05",
-      "msg": "Tracker unchanged: 32 applications, 45 leads; 1 prepared, 0 submitted, 2 missed, 4 blocked."
-    },
-    {
-      "t": "07:10",
+      "t": "09:12",
       "msg": "Grace inbox read-only IMAP check: 17 messages in 24h; all unrelated newsletters/promotions, no scholarship/application/referee updates."
     },
     {
-      "t": "07:10",
+      "t": "09:12",
       "msg": "No entity or portal changes; 0 confirmed submissions; Commonwealth remains urgent Oct 20."
     },
     {
