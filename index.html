@@ -55,7 +55,7 @@ h1{font-size:15px;letter-spacing:.12em;font-weight:600}
 const state={};
 async function load(){
   try{
-    const r=await fetch('data.json',{cache:'no-store'});const d=await r.json();
+    const r=await fetch('data.json?ts='+Date.now(),{cache:'no-store'});const d=await r.json();
     state.d=d;render();
   }catch(e){document.getElementById('phase').textContent='connecting...';}
 }
