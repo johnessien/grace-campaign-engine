@@ -1,6 +1,6 @@
 {
   "phase": "Hourly cycle complete; no new inbox messages or application changes; 0 submitted",
-  "last_run_utc": "2026-10-18 03:08",
+  "last_run_utc": "2026-10-18 04:10",
   "counts": {
     "tracked": 32,
     "prepared": 1,
@@ -268,11 +268,11 @@
   ],
   "log": [
     {
-      "t": "03:08",
-      "msg": "Grace inbox IMAP check: 12 messages; one unrelated Abundance Portal newsletter keyword hit, no application/referee updates."
+      "t": "04:10",
+      "msg": "Grace inbox read-only IMAP check: 12 messages in 24h; all unrelated newsletters/promotions, no scholarship/application/referee updates."
     },
     {
-      "t": "03:08",
+      "t": "04:10",
       "msg": "No entity or portal changes; 0 confirmed submissions; Commonwealth remains urgent Oct 20."
     },
     {
