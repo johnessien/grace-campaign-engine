@@ -1,24 +1,108 @@
 {
-  "phase": "Cycle complete · inbox checked · no new verified changes",
+  "phase": "Cycle complete \u00b7 inbox checked \u00b7 no new verified changes",
   "last_run_utc": "2026-10-18 17:02",
-  "counts": {"tracked": 32, "prepared": 1, "submitted": 0, "missed": 2, "blocked": 4},
+  "counts": {
+    "tracked": 32,
+    "prepared": 1,
+    "submitted": 0,
+    "missed": 2,
+    "blocked": 4
+  },
   "apps": [
-    {"program": "Commonwealth Master's Scholarship", "tier": "T1", "status": "Prepared", "deadline": "Oct 20", "days_left": 2, "note": "Not submitted. Referees, nomination, Grace approval and ID outstanding; CSC retry prohibited."},
-    {"program": "Erasmus Mundus MAPP", "tier": "T1", "status": "Queued", "deadline": "Dec 1", "days_left": 44, "note": "Package staged; CEU password and GDPR consent require Grace."},
-    {"program": "Erasmus Mundus GLOCAL", "tier": "T1", "status": "Queued", "deadline": "Jan 14", "days_left": 88, "note": "Working package staged; official form requirements need verification."},
-    {"program": "Erasmus Mundus GLOCAL?", "tier": "T1", "status": "Queued", "deadline": "Jan 15", "days_left": 89, "note": "Reported deadline; official form verification outstanding."},
-    {"program": "EPOG+ / GLODEP", "tier": "T1", "status": "Queued", "deadline": "Jan 31", "days_left": 105, "note": "Queued; portal opens later."},
-    {"program": "VLIR-UOS ICP Connect", "tier": "T1", "status": "Queued", "deadline": "Feb 1", "days_left": 106, "note": "Queued; referees and call requirements to confirm."},
-    {"program": "Sweden SISGP + master's", "tier": "T2", "status": "Queued", "deadline": "Jan 15", "days_left": 89, "note": "University fee SEK 900; funding/eligibility to verify."},
-    {"program": "Maastricht UNU-MERIT", "tier": "T2", "status": "Queued", "deadline": "Feb 1", "days_left": 106, "note": "Approx. EUR 100 fee; verify current application details."},
-    {"program": "Chevening 2027/28", "tier": "T1", "status": "Missed", "deadline": "Oct 6", "days_left": -12, "note": "Closed; no submission. Reuse drafts next cycle."},
-    {"program": "Ireland Fellows Africa", "tier": "T1", "status": "Missed", "deadline": "Jul 26", "days_left": -84, "note": "Stage 1 missed; recheck next cycle."},
-    {"program": "WU Vienna SEEP", "tier": "T3", "status": "Queued", "deadline": "Jan 8", "days_left": 82, "note": "Incomplete; writing samples, degree certificate and MoI needed."}
+    {
+      "program": "Commonwealth Master's Scholarship",
+      "tier": "T1",
+      "status": "Prepared",
+      "deadline": "Oct 20",
+      "days_left": 2,
+      "note": "Not submitted. Referees, nomination, Grace approval and ID outstanding; CSC retry prohibited."
+    },
+    {
+      "program": "Erasmus Mundus MAPP",
+      "tier": "T1",
+      "status": "Queued",
+      "deadline": "Dec 1",
+      "days_left": 44,
+      "note": "Package staged; CEU password and GDPR consent require Grace."
+    },
+    {
+      "program": "Erasmus Mundus GLOCAL",
+      "tier": "T1",
+      "status": "Queued",
+      "deadline": "Jan 14",
+      "days_left": 88,
+      "note": "Working package staged; official form requirements need verification."
+    },
+    {
+      "program": "EPOG+ / GLODEP",
+      "tier": "T1",
+      "status": "Queued",
+      "deadline": "Jan 31",
+      "days_left": 105,
+      "note": "Queued; portal opens later."
+    },
+    {
+      "program": "VLIR-UOS ICP Connect",
+      "tier": "T1",
+      "status": "Queued",
+      "deadline": "Feb 1",
+      "days_left": 106,
+      "note": "Queued; referees and call requirements to confirm."
+    },
+    {
+      "program": "Sweden SISGP + master's",
+      "tier": "T2",
+      "status": "Queued",
+      "deadline": "Jan 15",
+      "days_left": 89,
+      "note": "University fee SEK 900; funding/eligibility to verify."
+    },
+    {
+      "program": "Maastricht UNU-MERIT",
+      "tier": "T2",
+      "status": "Queued",
+      "deadline": "Feb 1",
+      "days_left": 106,
+      "note": "Approx. EUR 100 fee; verify current application details."
+    },
+    {
+      "program": "Chevening 2027/28",
+      "tier": "T1",
+      "status": "Missed",
+      "deadline": "Oct 6",
+      "days_left": -12,
+      "note": "Closed; no submission. Reuse drafts next cycle."
+    },
+    {
+      "program": "Ireland Fellows Africa",
+      "tier": "T1",
+      "status": "Missed",
+      "deadline": "Jul 26",
+      "days_left": -84,
+      "note": "Stage 1 missed; recheck next cycle."
+    },
+    {
+      "program": "WU Vienna SEEP",
+      "tier": "T3",
+      "status": "Queued",
+      "deadline": "Jan 8",
+      "days_left": 82,
+      "note": "Incomplete; writing samples, degree certificate and MoI needed."
+    }
   ],
   "log": [
-    {"t": "17:02", "msg": "Inbox check: 24 messages, one unrelated newsletter match; no application mail."},
-    {"t": "17:02", "msg": "No tracker changes. No accounts, payments or submissions."},
-    {"t": "16:00", "msg": "Previous cycle: 32 applications, 45 leads; no submission confirmed."}
+    {
+      "t": "17:02",
+      "msg": "Inbox check: 24 messages, one unrelated newsletter match; no application mail."
+    },
+    {
+      "t": "17:02",
+      "msg": "No tracker changes. No accounts, payments or submissions."
+    },
+    {
+      "t": "16:00",
+      "msg": "Previous cycle: 32 applications, 45 leads; no submission confirmed."
+    }
   ],
   "needs": [
     "Two authentic referee contacts and reference letters",
