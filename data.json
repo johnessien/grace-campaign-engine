@@ -1,6 +1,6 @@
 {
-  "phase": "Cycle complete: 32 tracked; 0 submitted; Grace inbox search failed; no portal actions",
-  "last_run_utc": "2026-10-18 19:02",
+  "phase": "Cycle complete: inbox checked; no relevant mail or application changes; 0 submitted",
+  "last_run_utc": "2026-10-18 20:04",
   "counts": {
     "tracked": 32,
     "prepared": 1,
@@ -180,10 +180,10 @@
     {
       "program": "MSc Socio-Ecological Economics and Policy (SEEP)",
       "tier": "T3",
-      "status": "Queued",
+      "status": "Draft",
       "deadline": "2027-01-08",
       "days_left": 82,
-      "note": "Needs two writing samples, degree certificate, ECTS evaluation, MOI and applicant goals."
+      "note": "Incomplete: authentic writing samples, degree certificate, ECTS evaluation, MOI and applicant statement."
     },
     {
       "program": "Erasmus Mundus EPOG+ / GLODEP",
@@ -196,18 +196,18 @@
     {
       "program": "Erasmus Mundus MAPP (Public Policy)",
       "tier": "T1",
-      "status": "Queued",
+      "status": "Draft",
       "deadline": "2026-12-01",
       "days_left": 44,
-      "note": "Needs Grace's portal password/GDPR consent, track confirmation and referees."
+      "note": "Package exists; registration awaits Grace password/GDPR consent, track and referee details."
     },
     {
       "program": "Erasmus Mundus GLOCAL (Global Markets, Local Creativities)",
       "tier": "T1",
-      "status": "Queued",
+      "status": "Draft",
       "deadline": "2027-01-14",
       "days_left": 88,
-      "note": "Verify official prompts/requirements before registration."
+      "note": "Package exists; official prompts and portal still need verification."
     },
     {
       "program": "VLIR-UOS ICP Connect (Belgium)",
@@ -255,7 +255,7 @@
       "status": "Prepared",
       "deadline": "2026-10-20",
       "days_left": 2,
-      "note": "Needs two referees, Grace approval, Ghana nomination and ID details."
+      "note": "Not submitted; CSC registration incomplete. Needs referees, Grace approval, nomination and ID."
     },
     {
       "program": "Ireland Fellows Programme Africa 2027",
@@ -268,24 +268,24 @@
   ],
   "log": [
     {
-      "t": "19:02",
-      "msg": "Tier 3 research rechecked; all identified programs already tracked. No application or portal changes."
+      "t": "20:04",
+      "msg": "Grace inbox read-only IMAP search: 25 messages since Oct 17; two unrelated Abundance Portal newsletters only; no application/referee/verification mail."
+    },
+    {
+      "t": "20:04",
+      "msg": "All Tier 3 programs already tracked; existing Commonwealth, MAPP, and GLOCAL packages present. No portal action or status change."
     },
     {
       "t": "19:02",
-      "msg": "Grace inbox search failed: IMAP server returned BAD parse error; mail status unverified this cycle."
+      "msg": "Previous IMAP search returned a syntax error; corrected search verified this cycle. No relevant mail."
     },
     {
-      "t": "18:09",
-      "msg": "Grace inbox read-only IMAP audit: 14 messages in the last 24h; no relevant university, scholarship, application, verification, or referee mail. A CanadianVisa.org lead-generation email was unrelated and not submission proof."
+      "t": "19:02",
+      "msg": "CSC retry prohibited; MAPP waits on Grace password/GDPR consent; GLOCAL requirements remain unverified."
     },
     {
       "t": "18:09",
       "msg": "No entity or portal changes; 0 confirmed submissions; Commonwealth remains urgent Oct 20."
-    },
-    {
-      "t": "20:01",
-      "msg": "16 research-claimed Tier 3 leads/apps added; current requirements still need official recheck."
     }
   ],
   "needs": [
