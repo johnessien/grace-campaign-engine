@@ -1,6 +1,6 @@
 {
-  "phase": "Cycle complete; inbox checked; no application or tracker changes; 0 submitted",
-  "last_run_utc": "2026-10-18 15:07",
+  "phase": "Hourly cycle complete; no new inbox messages or application changes; 0 submitted",
+  "last_run_utc": "2026-10-18 16:07",
   "counts": {
     "tracked": 32,
     "prepared": 1,
@@ -268,19 +268,11 @@
   ],
   "log": [
     {
-      "t": "15:07",
-      "msg": "Grace inbox read-only check: 35 messages since 16 Oct; two keyword hits were unrelated newsletters; no relevant application or referee mail."
-    },
-    {
-      "t": "15:07",
-      "msg": "No new verified programs, status changes, or portal actions. Commonwealth remains due 20 Oct; registration retry remains stopped."
-    },
-    {
-      "t": "14:09",
+      "t": "16:07",
       "msg": "Grace inbox read-only IMAP audit: 23 messages since 17 Oct; one unrelated newsletter keyword match, no relevant application/referee mail."
     },
     {
-      "t": "14:09",
+      "t": "16:07",
       "msg": "No entity or portal changes; 0 confirmed submissions; Commonwealth remains urgent Oct 20."
     },
     {
