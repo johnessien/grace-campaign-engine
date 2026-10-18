@@ -269,7 +269,7 @@
   "log": [
     {
       "t": "21:11",
-      "msg": "Grace inbox read-only IMAP audit: 300 recent messages checked for the exact preceding 24h; one unrelated Abundance Portal newsletter; no relevant university, scholarship, application, verification, or referee mail."
+      "msg": "Read-only inbox audit: 300 recent messages checked for exact preceding 24h; one unrelated Abundance Portal newsletter; no relevant application email or status changes."
     },
     {
       "t": "21:11",
