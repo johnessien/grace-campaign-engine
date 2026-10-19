@@ -1,6 +1,6 @@
 {
-  "phase": "Hourly cycle complete — CSC registration did not advance; 0 applications submitted",
-  "last_run_utc": "2026-10-19 04:04",
+  "phase": "24-hour inbox audit complete; Griffith follow-up already known; no new application event",
+  "last_run_utc": "2026-10-19 04:18",
   "counts": {
     "tracked": 32,
     "prepared": 1,
@@ -14,7 +14,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2026-12-15",
-      "days_left": 58,
+      "days_left": 57,
       "note": "Recheck official eligibility, agent route, tuition, award and MOI."
     },
     {
@@ -22,7 +22,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-07-01",
-      "days_left": 256,
+      "days_left": 255,
       "note": "Confirm entry, English route, fee waiver and net cost."
     },
     {
@@ -30,7 +30,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-03-31",
-      "days_left": 164,
+      "days_left": 163,
       "note": "Confirm fee, award, English route and cost."
     },
     {
@@ -38,7 +38,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-05-01",
-      "days_left": 195,
+      "days_left": 194,
       "note": "Confirm eligibility, fee waiver, award and cost."
     },
     {
@@ -46,7 +46,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2026-12-01",
-      "days_left": 44,
+      "days_left": 43,
       "note": "Verify intake, English, scholarship and net tuition."
     },
     {
@@ -54,7 +54,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2026-12-01",
-      "days_left": 44,
+      "days_left": 43,
       "note": "Verify prerequisites, agent route, fee, award and cost."
     },
     {
@@ -62,7 +62,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-07-15",
-      "days_left": 270,
+      "days_left": 269,
       "note": "Check grade conversion, English and uni-assist fee."
     },
     {
@@ -70,7 +70,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-07-15",
-      "days_left": 270,
+      "days_left": 269,
       "note": "Confirm subject credits, MOI and fee."
     },
     {
@@ -78,7 +78,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-04-30",
-      "days_left": 194,
+      "days_left": 193,
       "note": "Confirm course credits, fee, Ghana rate and ER.GO award."
     },
     {
@@ -86,7 +86,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-02-28",
-      "days_left": 133,
+      "days_left": 132,
       "note": "Confirm 2027 call, English waiver and scholarship criteria."
     },
     {
@@ -94,7 +94,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-04-30",
-      "days_left": 194,
+      "days_left": 193,
       "note": "Confirm deadlines, English proof and Ghana tuition rate."
     },
     {
@@ -102,7 +102,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-07-15",
-      "days_left": 270,
+      "days_left": 269,
       "note": "Check coursework and uni-assist fee."
     },
     {
@@ -110,7 +110,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-07-15",
-      "days_left": 270,
+      "days_left": 269,
       "note": "Confirm non-engineering eligibility; don't apply if engineering degree required."
     },
     {
@@ -118,7 +118,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-05-31",
-      "days_left": 225,
+      "days_left": 224,
       "note": "Confirm eligibility, English route, fee and tuition."
     },
     {
@@ -126,7 +126,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-07-15",
-      "days_left": 270,
+      "days_left": 269,
       "note": "Check quantitative prerequisites in transcript."
     },
     {
@@ -134,7 +134,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-04-30",
-      "days_left": 194,
+      "days_left": 193,
       "note": "Confirm title, entry, English route and fee."
     },
     {
@@ -142,7 +142,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-05-31",
-      "days_left": 225,
+      "days_left": 224,
       "note": "Verify current call and fellowship; package if open."
     },
     {
@@ -150,7 +150,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-02-15",
-      "days_left": 120,
+      "days_left": 119,
       "note": "Confirm eligibility, full cost and Ghana English waiver."
     },
     {
@@ -158,7 +158,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2026-12-01",
-      "days_left": 44,
+      "days_left": 43,
       "note": "Confirm agent route, scholarship and tuition before portal."
     },
     {
@@ -166,7 +166,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2026-11-30",
-      "days_left": 43,
+      "days_left": 42,
       "note": "Use registered agent; verify cost, scholarship and MOI."
     },
     {
@@ -174,7 +174,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2026-12-01",
-      "days_left": 44,
+      "days_left": 43,
       "note": "Verify scholarship, MOI and current portal requirements."
     },
     {
@@ -182,7 +182,7 @@
       "tier": "T3",
       "status": "Queued",
       "deadline": "2027-01-08",
-      "days_left": 82,
+      "days_left": 81,
       "note": "Needs two writing samples, degree certificate, ECTS evaluation, MOI and applicant goals."
     },
     {
@@ -190,7 +190,7 @@
       "tier": "T1",
       "status": "Queued",
       "deadline": "2027-01-31",
-      "days_left": 105,
+      "days_left": 104,
       "note": "Queued; confirm current 2027 call and exact deadlines."
     },
     {
@@ -198,23 +198,23 @@
       "tier": "T1",
       "status": "Queued",
       "deadline": "2026-12-01",
-      "days_left": 44,
-      "note": "Package staged; Grace password/GDPR consent + referees needed."
+      "days_left": 43,
+      "note": "Needs Grace's portal password/GDPR consent, track confirmation and referees."
     },
     {
       "program": "Erasmus Mundus GLOCAL (Global Markets, Local Creativities)",
       "tier": "T1",
       "status": "Queued",
       "deadline": "2027-01-14",
-      "days_left": 88,
-      "note": "Working package staged; official prompts/portal still unverified."
+      "days_left": 87,
+      "note": "Verify official prompts/requirements before registration."
     },
     {
       "program": "VLIR-UOS ICP Connect (Belgium)",
       "tier": "T1",
       "status": "Queued",
       "deadline": "2027-02-01",
-      "days_left": 106,
+      "days_left": 105,
       "note": "Queued; monitor call and confirm course eligibility."
     },
     {
@@ -222,7 +222,7 @@
       "tier": "T2",
       "status": "Queued",
       "deadline": "2027-01-15",
-      "days_left": 89,
+      "days_left": 88,
       "note": "University application fee SEK 900; prepare when portal open."
     },
     {
@@ -230,7 +230,7 @@
       "tier": "T2",
       "status": "Queued",
       "deadline": "2027-02-01",
-      "days_left": 106,
+      "days_left": 105,
       "note": "Prepare application; verify current entry and deadline."
     },
     {
@@ -238,7 +238,7 @@
       "tier": "T1",
       "status": "Queued",
       "deadline": "2027-05-31",
-      "days_left": 225,
+      "days_left": 224,
       "note": "Opens Feb 2027; monitor Ghana call."
     },
     {
@@ -246,7 +246,7 @@
       "tier": "T1",
       "status": "Missed",
       "deadline": "2026-10-06",
-      "days_left": -12,
+      "days_left": -13,
       "note": "Closed; missed deadline."
     },
     {
@@ -255,46 +255,42 @@
       "status": "Prepared",
       "deadline": "2026-10-20",
       "days_left": 1,
-      "note": "No CSC account: form stayed open; no confirmation/passcode email."
+      "note": "Needs two referees, Grace approval, Ghana nomination and ID details."
     },
     {
       "program": "Ireland Fellows Programme Africa 2027",
       "tier": "T1",
       "status": "Missed",
       "deadline": "2027-06-29",
-      "days_left": 254,
+      "days_left": 253,
       "note": "Stage 1 missed; expected 2028/29 cycle, verify next call."
     }
   ],
   "log": [
     {
-      "t": "04:04",
-      "msg": "CSC registration form remained open after one submit click; no confirmation or passcode email. No account/submission."
+      "t": "04:18",
+      "msg": "Inbox audit: 16 messages; Griffith case already known, no new confirmations or referee mail."
     },
     {
       "t": "04:04",
-      "msg": "Grace inbox read-only check: 16 messages since Oct 18, none CSC/application/referee; Spam query 0."
+      "msg": "CSC registration still incomplete; Commonwealth remains due Oct 20 at 16:00 BST."
     },
     {
-      "t": "03:11",
-      "msg": "24-hour inbox review found no relevant application or referee email; CanadianVisa promotional lead email excluded; no material change."
-    },
-    {
-      "t": "03:11",
-      "msg": "No entity or portal changes; 0 confirmed submissions; Commonwealth remains urgent Oct 20."
-    },
-    {
-      "t": "20:01",
-      "msg": "No application/status changes this run; current requirements still need official recheck."
+      "t": "03:06",
+      "msg": "No new programs or application changes; MAPP consent and GLOCAL verification remain blocked."
     }
   ],
   "needs": [
-    "Two authentic referee contacts and letters; none confirmed",
-    "Commonwealth: Grace essay/course approval, Ghana ID, Ghana Secretariat nomination, CSC registration/reset-email resolution by Oct 20 16:00 BST",
-    "MAPP: Grace password/GDPR consent, referees, final mobility track/career aim",
-    "GLOCAL: official portal and application requirements still need verification",
-    "UG medium-of-instruction letter, Ghana Card/passport scans, StarLife reference as required",
-    "Australia: registered education agent and verified net cost/scholarship",
-    "WU Vienna: authentic writing samples, degree certificate, transcript ECTS evaluation and applicant career goals"
+    "Two referee contacts (name, title, institution, email; phone if available)",
+    "Review/approval of scholarship statements",
+    "Ghana Card and passport scans; legibility confirmation",
+    "University of Ghana medium-of-instruction letter",
+    "Employer reference from StarLife Assurance",
+    "Ghana Scholarships Secretariat route/deadline; three UK course preferences",
+    "CEU account password/GDPR consent and MAPP track/career aim",
+    "Confirm GLOCAL official prompts and portal",
+    "Registered Australian education agent; verify costs/scholarship/English route",
+    "WU Vienna: two original writing samples, degree certificate, transcript/ECTS evaluation, MOI and motivation",
+    "Griffith: identify unfinished postgraduate program/case UR0421253"
   ]
 }
