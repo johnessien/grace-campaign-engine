@@ -1,118 +1,125 @@
 {
-  "phase": "Tracker reviewed; mailbox and Sheet instructions unavailable in this run",
-  "last_run_utc": "2026-10-19 01:11",
-  "counts": {
-    "tracked": 32,
-    "prepared": 7,
-    "submitted": 0,
-    "missed": 2,
-    "blocked": 4
+ "phase": "Inbox checked - Griffith application continuation identified",
+ "last_run_utc": "2026-10-19 02:05 UTC",
+ "counts": {
+  "tracked": 32,
+  "prepared": 7,
+  "submitted": 0,
+  "missed": 2,
+  "blocked": 4
+ },
+ "apps": [
+  {
+   "program": "Commonwealth Master's (UK)",
+   "tier": "T1",
+   "status": "Prepared, not submitted",
+   "deadline": "Oct 20, 16:00 BST",
+   "days_left": 1,
+   "note": "CSC registration incomplete; referees, nomination, ID and Grace approval needed"
   },
-  "apps": [
-    {
-      "program": "Commonwealth Master's (UK)",
-      "tier": "T1",
-      "status": "Prepared, not submitted",
-      "deadline": "Oct 20, 16:00 BST",
-      "days_left": 1,
-      "note": "CSC registration incomplete; referees, nomination, ID and Grace approval needed"
-    },
-    {
-      "program": "Edith Cowan University OHS",
-      "tier": "T3",
-      "status": "Draft",
-      "deadline": "Nov 30",
-      "days_left": 42,
-      "note": "Verify agent route, fee, English evidence and total cost"
-    },
-    {
-      "program": "Erasmus Mundus MAPP",
-      "tier": "T1",
-      "status": "Draft, registration blocked",
-      "deadline": "Dec 1",
-      "days_left": 43,
-      "note": "Needs human consent to CEU registration, referees and final track choice"
-    },
-    {
-      "program": "University of Wollongong Master of Business",
-      "tier": "T3",
-      "status": "Draft",
-      "deadline": "Dec 1",
-      "days_left": 43,
-      "note": "Verify agent requirements, tuition and scholarship eligibility"
-    },
-    {
-      "program": "University of Waikato MBM",
-      "tier": "T3",
-      "status": "Draft",
-      "deadline": "Dec 1",
-      "days_left": 43,
-      "note": "Verify scholarship eligibility/value and English route"
-    },
-    {
-      "program": "University of Newcastle Applied Finance",
-      "tier": "T3",
-      "status": "Queued",
-      "deadline": "Dec 1",
-      "days_left": 43,
-      "note": "Confirm prerequisites, agent route, fee and net cost"
-    },
-    {
-      "program": "UniSQ Occupational Health & Safety",
-      "tier": "T3",
-      "status": "Queued",
-      "deadline": "Dec 15",
-      "days_left": 57,
-      "note": "Confirm eligibility, agent route, tuition and English evidence"
-    },
-    {
-      "program": "Erasmus Mundus GLOCAL",
-      "tier": "T1",
-      "status": "Draft, requirements incomplete",
-      "deadline": "Jan 14",
-      "days_left": 87,
-      "note": "Official prompts and portal requirements need verification"
-    },
-    {
-      "program": "WU Vienna SEEP",
-      "tier": "T3",
-      "status": "Draft, package incomplete",
-      "deadline": "Jan 8",
-      "days_left": 81,
-      "note": "Needs two authentic writing samples, degree certificate, credit evaluation and MOI"
-    },
-    {
-      "program": "Chevening 2027/28",
-      "tier": "T1",
-      "status": "Missed",
-      "deadline": "Oct 6",
-      "days_left": -12,
-      "note": "Closed; no submission"
-    },
-    {
-      "program": "Ireland Fellows Africa 2027",
-      "tier": "T1",
-      "status": "Missed",
-      "deadline": "Jun 29",
-      "days_left": -112,
-      "note": "Stage missed; prepare next cycle"
-    }
-  ],
-  "log": [
-    {
-      "t": "01:11 UTC",
-      "msg": "Reviewed 32 application records. No records changed; no submission evidence."
-    },
-    {
-      "t": "01:11 UTC",
-      "msg": "Mailbox and Sheet instructions unavailable in this run; neither checked/updated."
-    }
-  ],
-  "needs": [
-    "Commonwealth: two referees, Ghana nomination, ID and Grace's essay approval by Oct 20",
-    "MAPP: human portal consent, two referees and final track choice",
-    "GLOCAL official prompts and portal requirements",
-    "WU Vienna writing samples, degree certificate, credit evaluation and MOI",
-    "General: confirmed referees, ID scans and medium-of-instruction letter"
-  ]
+  {
+   "program": "Edith Cowan University OHS",
+   "tier": "T3",
+   "status": "Draft",
+   "deadline": "Nov 30",
+   "days_left": 42,
+   "note": "Verify agent route, fee, English evidence and total cost"
+  },
+  {
+   "program": "Erasmus Mundus MAPP",
+   "tier": "T1",
+   "status": "Draft, registration blocked",
+   "deadline": "Dec 1",
+   "days_left": 43,
+   "note": "Needs human consent to CEU registration, referees and final track choice"
+  },
+  {
+   "program": "University of Wollongong Master of Business",
+   "tier": "T3",
+   "status": "Draft",
+   "deadline": "Dec 1",
+   "days_left": 43,
+   "note": "Verify agent requirements, tuition and scholarship eligibility"
+  },
+  {
+   "program": "University of Waikato MBM",
+   "tier": "T3",
+   "status": "Draft",
+   "deadline": "Dec 1",
+   "days_left": 43,
+   "note": "Verify scholarship eligibility/value and English route"
+  },
+  {
+   "program": "University of Newcastle Applied Finance",
+   "tier": "T3",
+   "status": "Queued",
+   "deadline": "Dec 1",
+   "days_left": 43,
+   "note": "Confirm prerequisites, agent route, fee and net cost"
+  },
+  {
+   "program": "UniSQ Occupational Health & Safety",
+   "tier": "T3",
+   "status": "Queued",
+   "deadline": "Dec 15",
+   "days_left": 57,
+   "note": "Confirm eligibility, agent route, tuition and English evidence"
+  },
+  {
+   "program": "Erasmus Mundus GLOCAL",
+   "tier": "T1",
+   "status": "Draft, requirements incomplete",
+   "deadline": "Jan 14",
+   "days_left": 87,
+   "note": "Official prompts and portal requirements need verification"
+  },
+  {
+   "program": "WU Vienna SEEP",
+   "tier": "T3",
+   "status": "Draft, package incomplete",
+   "deadline": "Jan 8",
+   "days_left": 81,
+   "note": "Needs two authentic writing samples, degree certificate, credit evaluation and MOI"
+  },
+  {
+   "program": "Chevening 2027/28",
+   "tier": "T1",
+   "status": "Missed",
+   "deadline": "Oct 6",
+   "days_left": -12,
+   "note": "Closed; no submission"
+  },
+  {
+   "program": "Ireland Fellows Africa 2027",
+   "tier": "T1",
+   "status": "Missed",
+   "deadline": "Jun 29",
+   "days_left": -112,
+   "note": "Stage missed; prepare next cycle"
+  }
+ ],
+ "log": [
+  {
+   "t": "02:05",
+   "msg": "Griffith support confirms a postgraduate application was started but not submitted (case UR0421253); exact program unknown."
+  },
+  {
+   "t": "01:11 UTC",
+   "msg": "Reviewed 32 application records. No records changed; no submission evidence."
+  },
+  {
+   "t": "01:11 UTC",
+   "msg": "Mailbox and Sheet instructions unavailable in this run; neither checked/updated."
+  }
+ ],
+ "needs": [
+  "Two referees (name, title, institution, email)",
+  "Grace approval of statements and Commonwealth course choices",
+  "Ghana Card/passport + Ghana nomination confirmation",
+  "University of Ghana medium-of-instruction letter",
+  "Griffith: identify program and continue unfinished application (case UR0421253)",
+  "MAPP CEU consent and pathway confirmation",
+  "WU Vienna documents and original writing samples",
+  "Australian registered education agent to verify routes/costs"
+ ]
 }
