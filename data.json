@@ -1,6 +1,6 @@
 {
-  "phase": "Daily publish complete; last-24h Grace inbox audit found no new application/referee/portal messages; 0 submitted",
-  "last_run_utc": "2026-10-19 22:14",
+  "phase": "Mailbox check blocked: authorized Gmail is John’s account, not Grace’s; no submissions confirmed.",
+  "last_run_utc": "2026-10-19 23:08",
   "counts": {
     "tracked": 32,
     "prepared": 1,
@@ -199,7 +199,7 @@
       "status": "Queued",
       "deadline": "2026-12-01",
       "days_left": 43,
-      "note": "Needs Grace's portal password/GDPR consent, track confirmation and referees."
+      "note": "Draft only; Grace must choose password and accept GDPR, provide referees and confirm track."
     },
     {
       "program": "Erasmus Mundus GLOCAL (Global Markets, Local Creativities)",
@@ -207,7 +207,7 @@
       "status": "Queued",
       "deadline": "2027-01-14",
       "days_left": 87,
-      "note": "Verify official prompts/requirements before registration."
+      "note": "Draft only; official portal/requirements and personal choices need verification."
     },
     {
       "program": "VLIR-UOS ICP Connect (Belgium)",
@@ -255,7 +255,7 @@
       "status": "Prepared",
       "deadline": "2026-10-20",
       "days_left": 1,
-      "note": "Needs two referees, Grace approval, Ghana nomination and ID details."
+      "note": "Not submitted; needs referees, Grace approval, ID, nomination and CSC registration. Due Oct 20."
     },
     {
       "program": "Ireland Fellows Programme Africa 2027",
@@ -264,34 +264,57 @@
       "deadline": "2027-06-29",
       "days_left": 253,
       "note": "Stage 1 missed; expected 2028/29 cycle, verify next call."
+    },
+    {
+      "program": "Commonwealth Master's Scholarship 2027 (development-themed master's)",
+      "tier": "T1",
+      "status": "Prepared",
+      "deadline": "2026-10-20",
+      "days_left": 1,
+      "note": "Not submitted; needs referees, Grace approval, ID, nomination and CSC registration. Due Oct 20."
     }
   ],
   "log": [
     {
-      "t": "22:14",
-      "msg": "IMAP checked through 2026-10-19 22:14 UTC; no new school/referee/application message since prior run; 0 confirmed submissions."
+      "t": "23:08",
+      "msg": "Could not check Grace inbox: Gmail connector is johnetwi@gmail.com, not gessien18@gmail.com; no statuses changed."
     },
     {
-      "t": "22:14",
-      "msg": "No entity or portal changes; 0 confirmed submissions; Commonwealth remains urgent Oct 20."
+      "t": "23:08",
+      "msg": "32 applications / 45 leads read; 0 confirmed submissions; Commonwealth remains due Oct 20 at 16:00 BST."
     },
     {
-      "t": "20:01",
-      "msg": "No application/status changes this run; current requirements still need official recheck."
+      "t": "22:05",
+      "msg": "CSC Central form visible; stopped before retry because alternate reset email is unknown. No account/submission."
+    },
+    {
+      "t": "22:04",
+      "msg": "Checked Commonwealth, MAPP and GLOCAL packages; all remain draft-only."
+    },
+    {
+      "t": "15:12",
+      "msg": "Inbox checked for last 24h: 18 messages, no new relevant mail; no status/deadline changes."
+    },
+    {
+      "t": "08:01",
+      "msg": "Grace inbox: Griffith UR0421253 still incomplete; notice lacks course and continuation URL. No submission proof."
+    },
+    {
+      "t": "08:01",
+      "msg": "32 applications / 45 leads checked; no new independently verified untracked Tier 3 program."
+    },
+    {
+      "t": "08:01",
+      "msg": "No portal account created or form submitted. CSC unchanged failure; MAPP needs Grace consent; GLOCAL requirements unverified."
     }
   ],
   "needs": [
-    "Two referee contacts (name, title, institution, email; phone if available), Grace",
-    "Grace review and approval of scholarship statements",
-    "Ghana Card and passport scans; legibility check",
-    "University of Ghana medium-of-instruction letter",
-    "StarLife employer reference where required",
-    "Commonwealth: Ghana Scholarships Secretariat nomination route and course preferences by Oct 20",
-    "MAPP: Grace must complete CEU password and GDPR-consent step; confirm track/career aim",
-    "GLOCAL official prompts and portal need verification",
-    "Australia applications require registered education agent and cost/award verification",
-    "WU Vienna: two original writing samples, degree certificate, transcript/ECTS evaluation, MOI and applicant motivation",
-    "Memorial MER: confirm full cost and Ghana English-test waiver",
-    "Grace Gmail IMAP check completed for the last 24 hours; no new school/application/referee/verification message."
+    "Grace inbox access: authorized Gmail connection is johnetwi@gmail.com, not gessien18@gmail.com; no last-24h audit possible.",
+    "Commonwealth: genuine referees, Grace approval, ID and confirmed Ghana nomination by Oct 20 16:00 BST.",
+    "Commonwealth due 20 Oct 2026 16:00 BST: alternate reset email, two genuine referees/references, Grace approval/course choices, valid ID, Ghana nominator route.",
+    "MAPP: Grace's personal password/GDPR consent, referees, track/career choices.",
+    "GLOCAL: verify official 2027 portal and requirements; Grace's motivation/pathway choices and referees.",
+    "WU Vienna: authentic writing samples, official degree certificate, transcript-credit evaluation, MOI, Grace's statement.",
+    "Grace's connected Gmail is not accessible through the authorized Gmail token in this run."
   ]
 }
