@@ -1,6 +1,6 @@
 {
-  "phase": "Reviewed top 3 packages and blockers; 0 submissions; checked Grace inbox read-only",
-  "last_run_utc": "2026-10-19 07:01",
+  "phase": "Cycle complete: priority packages reviewed; no submissions; Commonwealth registration still blocked.",
+  "last_run_utc": "2026-10-19 08:05",
   "counts": {
     "tracked": 32,
     "prepared": 1,
@@ -15,7 +15,7 @@
       "status": "Prepared",
       "deadline": "Oct 20, 2026 16:00 BST",
       "days_left": 2,
-      "note": "CSC registration did not create account; needs referees, ID, nomination, approval, reset-email fix."
+      "note": "Portal still at New User/Existing User; previous registration did not create account. Needs referees, Grace approval, Ghana nomination, ID, and working 2FA."
     },
     {
       "program": "Erasmus Mundus MAPP",
@@ -76,6 +76,14 @@
   ],
   "log": [
     {
+      "t": "08:05",
+      "msg": "Read-only Grace inbox check: 16 messages since Oct 18; no new application, portal or referee confirmation. Griffith case notice unchanged."
+    },
+    {
+      "t": "08:05",
+      "msg": "Opened CSC Central; registration remains uncreated. No repeat attempt; 32 applications, 0 confirmed submissions."
+    },
+    {
       "t": "08:01",
       "msg": "Grace inbox: Griffith UR0421253 still incomplete; notice lacks course and continuation URL. No submission proof."
     },
@@ -98,21 +106,17 @@
     {
       "t": "06:01",
       "msg": "Grace inbox checked read-only: 16 messages since Oct 18; no confirmed submission."
-    },
-    {
-      "t": "06:01",
-      "msg": "No portal actions: Commonwealth unchanged failure, MAPP requires Grace consent, GLOCAL official form unverified."
-    },
-    {
-      "t": "05:03",
-      "msg": "Reviewed engine instructions, tier research, tracker, and three top packages. No new verified program or submission."
     }
   ],
   "needs": [
-    "Commonwealth: referees/references, ID/passport, Grace essay/course approval, Ghana nomination route and CSC registration/2FA resolution",
-    "MAPP: Grace password/GDPR consent, track choice, referees",
-    "GLOCAL: verify official form and prompts; confirm referee needs",
-    "Griffith UR0421253: identify application/course and continuation link",
-    "University of Ghana MOI letter; StarLife reference; WU Vienna writing samples/degree certificate/credit evaluation; registered Australian agent"
+    "2 authentic referee contacts and signed references",
+    "Grace's approval of scholarship statements and course choices",
+    "Ghana Card/passport scan and Ghana Scholarships Secretariat nomination route for Commonwealth",
+    "CSC registration/2FA resolution without repeating unchanged failed attempt",
+    "MAPP: Grace's password/GDPR consent, track choice and referees",
+    "GLOCAL: verify current official form prompts and referee requirements",
+    "University of Ghana medium-of-instruction letter; employer reference as required",
+    "Griffith UR0421253: identify the program and continuation link",
+    "Tier 3: verify official costs, awards, English routes and 2027 deadlines"
   ]
 }
