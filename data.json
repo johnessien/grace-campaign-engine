@@ -1,6 +1,6 @@
 {
   "phase": "Daily publish complete; last-24h Grace inbox audit found no new application/referee/portal messages; 0 submitted",
-  "last_run_utc": "2026-10-19 16:11",
+  "last_run_utc": "2026-10-19 17:08",
   "counts": {
     "tracked": 32,
     "prepared": 1,
@@ -268,11 +268,11 @@
   ],
   "log": [
     {
-      "t": "16:11",
-      "msg": "IMAP checked through 2026-10-19 16:11 UTC; no new school/referee/application message; five latest messages unrelated."
+      "t": "17:08",
+      "msg": "IMAP checked through 2026-10-19 17:08 UTC; no new school/referee/application message since prior run; 0 confirmed submissions."
     },
     {
-      "t": "16:11",
+      "t": "17:08",
       "msg": "No entity or portal changes; 0 confirmed submissions; Commonwealth remains urgent Oct 20."
     },
     {
