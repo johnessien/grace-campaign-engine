@@ -1,6 +1,6 @@
 {
-  "phase": "Daily publish complete: Grace inbox checked for last 24h; no new application/referee/portal updates; 0 confirmed submissions.",
-  "last_run_utc": "2026-10-20 02:04",
+  "phase": "Grace inbox checked for last 24h; no new application/referee/portal email; no statuses changed.",
+  "last_run_utc": "2026-10-20 03:08",
   "counts": {
     "tracked": 32,
     "prepared": 1,
@@ -267,6 +267,10 @@
     }
   ],
   "log": [
+    {
+      "t": "03:08",
+      "msg": "IMAP check: 24 messages in last 24h, no application/referee/portal update; statuses unchanged."
+    },
     {
       "t": "02:04",
       "msg": "IMAP checked through 2026-10-20 02:04 UTC; no new school/referee/application message since prior run; 0 confirmed submissions."
